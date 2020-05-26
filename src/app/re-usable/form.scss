@@ -1,0 +1,33 @@
+form{
+    width: 60%;
+    margin: 0 auto;
+    .form-field{
+        margin-bottom: 15px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .form-field-input{
+            border: none;
+            border-radius: 0px;
+            border: 2px solid #7764ca;
+            background-color: #fff;
+            padding: 10px 10px;
+            width: 100%;
+            &:focus{
+                outline: none;
+            }
+            &:focus ~ .form-field-label {
+                top: -25px;
+                color: #999;
+            }
+        }
+        .form-field-label{
+            position: absolute;
+            color: #ccc;
+            top: 10px;
+            left: 15px;
+            transition: 300ms ease all;
+        }
+    }
+}

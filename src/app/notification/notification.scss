@@ -1,0 +1,22 @@
+.notification{
+    position: absolute;
+    min-height: 100px;
+    width: 240px;
+    background-color:#fff;
+    top: 115px;
+    right: 60px;
+    z-index: 5;
+    color:#333;
+    font-size: 14px;
+    border-radius: 8px;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #7764ca;
+        padding: 15px 10px;
+    }
+    .body{
+        padding: 15px 10px;
+    }
+}
